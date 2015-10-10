@@ -1,0 +1,27 @@
+{
+  "name": "cmsis-core-nxp",
+  "version": "0.1.0",
+  "description": "CMSIS Core Implementation for NXP MCUs",
+  "keywords": [
+    "cmsis",
+    "nxp"
+  ],
+  "author": "Scott Tsai <scottt.tw@gmail.com>",
+  "repository": {
+    "url": "git@github.com:scottt/cmsis-core-nxp.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/scottt/cmsis-core-nxp",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/BSD-3-Clause",
+      "type": "bsd-3-clause"
+    }
+  ],
+  "dependencies": {},
+  "targetDependencies": {
+    "lpc111x": {
+      "cmsis-core-lpc111x": ">=0.1.0"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "cmsis-no-hal-lpc111x",
+  "version": "0.1.1",
+  "description": "CMSIS-CORE _WITHOUT_ any peripheral library or HAL for NXP LPC111x devices",
+  "keywords": [
+    "lpc1114",
+    "lpc111x",
+    "nxp",
+    "HAL",
+    "no-HAL",
+    "cmsis"
+  ],
+  "author": "Scott Tsai <scottt.tw@gmail.com>",
+  "repository": {
+    "url": "git@github.com:scottt/cmsis-no-hal-lpc111x.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/scottt/cmsis-no-hal-lpc111x",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/BSD-3-Clause",
+      "type": "bsd-3-clause"
+    }
+  ],
+  "dependencies": {
+    "cmsis-no-hal": ">=0.1.0",
+    "cmsis-core-lpc111x": ">=0.1.0"
+  }
+}
